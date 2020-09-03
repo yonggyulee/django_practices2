@@ -59,7 +59,7 @@ python manage.py createsuperuser
     1) django_practices(프로젝트 루트)
                 |------ templates
     2) settings.py 에 설정작업
-        TEMPLATES 변수에 'DIRS': [os.path.join('BASEDIR','templates')] 세팅한다
+        TEMPLATES 변수에 'DIRS': [os.path.join(BASE_DIR,'templates')] 세팅한다
 
 2. helloworld Application 만들기
     1) 터미널에서
